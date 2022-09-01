@@ -1,0 +1,102 @@
+.addBody{
+    padding: 0 0 0 0;
+    font-family: arial;
+    font-size: 0.7rem;
+    color: rgb(75, 75, 75);
+}
+
+h1{
+    text-align: center;
+}
+
+.addForm{
+    width: 30%;
+    background-color: rgb(223, 237, 243); 
+    border-radius: 5px;
+    padding: 1% 2%;
+    margin: 0 auto;
+}
+
+input{
+    width: 100%;
+    height: 2rem;
+    border: 1px solid white;
+    outline: 1px solid white;
+    padding: 0 0 0 1%;
+    margin: 1% 0 4% 0;
+    border-radius: 3px;
+}
+
+label{
+    font-size: 0.9rem;
+}
+
+.date_time{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between; 
+    margin: 0 0 3% 0;
+}
+
+.saveContainer{
+   text-align: right;
+}
+
+.saveContainer span{
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.saveBtn{
+    width: 20%;
+    height: 2rem;
+    margin: 0.5% 0 0 7%;
+    cursor: pointer;
+}
+
+/* home */
+.homeBody{
+    width: 40%;
+    background-color: rgb(223, 237, 243); 
+    border-radius: 0 0 5px 5px;
+    padding: 1% 0.5%;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.taskContainer{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0 0.5%;  
+    font-size: 1rem; 
+    margin: 0 auto;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 5px 5px 0 0;
+}
+
+.taskHead{
+    padding: 1.2%;
+}
+
+.taskOutline{
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    padding: 2% 0;
+}
+
+.message{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    padding: 1% 2%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0.2% auto;
+    background-color: lightblue;
+}
